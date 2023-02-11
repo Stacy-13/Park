@@ -90,7 +90,7 @@ namespace Park
                         Context.secutityLevel = 1;
                         break;
                     case 2:
-                        Context.secutityLevel = 1;
+                        Context.secutityLevel = 2;
                         break;
                     case 3:
                         Context.secutityLevel = 3;

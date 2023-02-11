@@ -77,6 +77,11 @@ namespace Park
 
         private void enterHistoryButton_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void addOrderButton_Click(object sender, EventArgs e)
+        {
             AddWindow AW = new AddWindow();
             this.Hide();
             AW.ShowDialog();

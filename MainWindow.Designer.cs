@@ -54,6 +54,7 @@
             this.addOrderButton.Text = "Сформировать заказ";
             this.addOrderButton.UseVisualStyleBackColor = true;
             this.addOrderButton.Visible = false;
+            this.addOrderButton.Click += new System.EventHandler(this.addOrderButton_Click);
             // 
             // exitButton
             // 
@@ -69,7 +70,7 @@
             // 
             this.tabControl1.Controls.Add(this.tabPage1);
             this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Location = new System.Drawing.Point(11, 11);
+            this.tabControl1.Location = new System.Drawing.Point(13, 11);
             this.tabControl1.Margin = new System.Windows.Forms.Padding(2);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -148,7 +149,7 @@
             // postLabel
             // 
             this.postLabel.AutoSize = true;
-            this.postLabel.Location = new System.Drawing.Point(709, 64);
+            this.postLabel.Location = new System.Drawing.Point(915, 49);
             this.postLabel.Name = "postLabel";
             this.postLabel.Size = new System.Drawing.Size(0, 13);
             this.postLabel.TabIndex = 19;
